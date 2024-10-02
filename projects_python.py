@@ -130,16 +130,16 @@ def gym_app():
 # choose a game
 def choose():
   print("""
-  choose from 1 to 6 :
-  ------------------------    
+choose from 1 to 6 :
+------------------------    
   1- twenty one
   2- quiz
   3- budget app
   4- gym app
   5- snake
   6- exit
-  ------------------------
-  """)
+------------------------
+""")
   c = int(input("enter your choice : "))
   return c 
 # start of the budget app
